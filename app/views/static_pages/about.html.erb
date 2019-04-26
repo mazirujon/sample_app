@@ -1,0 +1,3 @@
+<% provide(:title, t(".title")) %>
+<h1><%= t ".title" %></h1>
+<p> <%= t(".p", rails: link_to(t(".rails"), t(".url_rails")), book: link_to(t(".book"), t(".url_book")), screencast: link_to(t(".screencast"), t(".url_screencast"))).html_safe %> </p>
