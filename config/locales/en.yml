@@ -1,10 +1,14 @@
 en:
   static_pages:
     home:
-      p: "This is the home page for the %{href} sample application."
-      title: "Home"
-      href: "Ruby on Rails Tutorial"
-      url: "https://www.railstutorial.org/"
+      p: This is the home page for the %{href} sample application.
+      title: Home
+      href: Ruby on Rails Tutorial
+      url: https://www.railstutorial.org/
+      rubyrails: http://rubyonrails.org/
+      img_rails: rails.png
+      alt_rails: Rails logo
+      sign: Sign up now!
     help:
       title: "Help"
       p: "Get help on the Ruby on Rails Tutorial at the %{href_help}. To get help on this sample app, see the %{book}."
@@ -28,4 +32,21 @@ en:
       url: "https://www.railstutorial.org/contact"
   layouts:
     application:
-      title: "Ruby on Rails Tutorial Sample App"
+      title: Ruby on Rails Tutorial Sample App
+    footer:
+      hart: Michael Hartl
+      url_hart: http://www.michaelhartl.com/
+      news: News
+      news_url: http://news.railstutorial.org/
+      href_rails: Ruby on Rails Tutorial
+      rails: https://www.railstutorial.org/
+      contact: Contact
+      abou: About
+    header:
+      home: Home
+      help: Help
+      login: Log in
+      header: sample app
+  users:
+    new:
+      title: Sign Up
