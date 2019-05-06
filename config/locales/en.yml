@@ -47,6 +47,10 @@ en:
       help: Help
       login: Log in
       header: sample app
+      logout: Log out
+      user: Users
+      pro: Profile
+      set: Settings
   users:
     new:
       title: Sign Up
@@ -63,3 +67,10 @@ en:
     error_messages:
       one: The form contains %{count} error.
       other: The form contains %{count} errors.
+  sessions:
+    new:
+      title: Login
+      submit: Login
+      signup: Sign Up Now!
+    create:
+      invalid_mail: Invalid email/password combination
