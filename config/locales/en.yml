@@ -72,5 +72,8 @@ en:
       title: Login
       submit: Login
       signup: Sign Up Now!
+      pass: Password
+      email: Email
+      check: Remember me on this computer
     create:
       invalid_mail: Invalid email/password combination
