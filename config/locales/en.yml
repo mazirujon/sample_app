@@ -50,3 +50,16 @@ en:
   users:
     new:
       title: Sign Up
+      submit: Create my account
+      name: Name
+      email: Email
+      pass: Password
+      pass_confir: Password Confimation
+    create:
+      welcome: Welcome to the Sample App!
+    show:
+      user_nill: User is not exits!
+  shared:
+    error_messages:
+      one: The form contains %{count} error.
+      other: The form contains %{count} errors.
