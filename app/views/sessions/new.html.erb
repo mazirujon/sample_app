@@ -1,23 +1,23 @@
-<% provide(:title, t(".title")) %>
-<h1><%= t ".title" %></h1>
+<% provide(:title, t("title.login")) %>
+<h1><%= t "title.login" %></h1>
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
     <%= form_for :session, url: login_path do |f| %>
 
-      <%= f.label :email, t(".email") %>
+      <%= f.label :email, t("user.email") %>
       <%= f.email_field :email, class: 'form-control' %>
 
-      <%= f.label :password, t(".pass") %>
+      <%= f.label :password, t("user.pass") %>
       <%= f.password_field :password, class: 'form-control' %>
 
       <%= f.label :remember_me, class: "checkbox inline" do %>
         <%= f.check_box :remember_me %>
-        <span><%= t(".check") %></span>
+        <span><%= t "check.remember" %></span>
       <% end %>
 
-      <%= f.submit t(".submit"), class: "btn btn-primary" %>
+      <%= f.submit t("button.submit"), class: "btn btn-primary" %>
     <% end %>
 
-    <p>New user? <%= link_to t(".singup"), signup_path %></p>
+    <p>New user? <%= link_to t("button.singup"), signup_path %></p>
   </div>
 </div>

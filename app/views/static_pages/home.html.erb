@@ -1,6 +1,6 @@
 <div class="center jumbotron">
-  <h1><%= t ".title" %></h1>
-  <h2> <%= t(".p", href: link_to(t(".href"), t(".url"))).html_safe %> </h2>
-  <%= link_to t(".sign"), signup_path, class: "btn btn-lg btn-primary" %>
+  <h1><%= t "title.home" %></h1>
+  <h2> This is the home page for the <%= link_to t("href.rails"), t("url.rails") %> sample application. </h2>
+  <%= link_to t("button.signup"), signup_path, class: "btn btn-lg btn-primary" %>
 </div>
-<%= link_to image_tag(t(".img_rails"), alt: t(".alt_rails")), t(".rubyrails") %>
+<%= link_to image_tag(t("img.rails"), alt: t("alt.rails")), t("url.rails_ruby") %>
