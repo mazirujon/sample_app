@@ -1,79 +1,58 @@
 en:
-  static_pages:
-    home:
-      p: This is the home page for the %{href} sample application.
-      title: Home
-      href: Ruby on Rails Tutorial
-      url: https://www.railstutorial.org/
-      rubyrails: http://rubyonrails.org/
-      img_rails: rails.png
-      alt_rails: Rails logo
-      sign: Sign up now!
-    help:
-      title: "Help"
-      p: "Get help on the Ruby on Rails Tutorial at the %{href_help}. To get help on this sample app, see the %{book}."
-      href_help: "Rails Tutorial help section"
-      url_help: "https://www.railstutorial.org/help"
-      book: "Ruby on Rails Tutorial Book"
-      url_book: "https://www.railstutorial.org/book"
-    about:
-      p: The %{rails} is a %{book} and %{screencast} to teach web development with %{rails}. This is the sample application for the tutorial.
-      title: "About"
-      rails: "Ruby on Rails Tutorial"
-      url_rails: "https://www.railstutorial.org/"
-      book: "book"
-      url_book: "https://www.railstutorial.org/book"
-      screencast: "creencast series"
-      url_screencast: "http://screencasts.railstutorial.org/"
-    contact:
-      p: "Contact the Ruby on Rails Tutorial about the sample app at the %{href}."
-      title: "Contact"
-      href: "contact page"
-      url: "https://www.railstutorial.org/contact"
-  layouts:
-    application:
-      title: Ruby on Rails Tutorial Sample App
-    footer:
-      hart: Michael Hartl
-      url_hart: http://www.michaelhartl.com/
-      news: News
-      news_url: http://news.railstutorial.org/
-      href_rails: Ruby on Rails Tutorial
-      rails: https://www.railstutorial.org/
-      contact: Contact
-      abou: About
-    header:
-      home: Home
-      help: Help
-      login: Log in
-      header: sample app
-      logout: Log out
-      user: Users
-      pro: Profile
-      set: Settings
-  users:
-    new:
-      title: Sign Up
-      submit: Create my account
-      name: Name
-      email: Email
-      pass: Password
-      pass_confir: Password Confimation
-    create:
-      welcome: Welcome to the Sample App!
-    show:
-      user_nill: User is not exits!
-  shared:
-    error_messages:
+  header: sample app
+  title:
+    user: Users
+    home: Home
+    help: Help
+    contact: Contact
+    about: About
+    login: Login
+    signup: Sign Up
+    rails: Ruby on Rails Tutorial Sample App
+    index: All Users
+    edit: Edit User
+  user:
+    name: Name
+    mail: Email
+    pass: Password
+    pass_confir: Password Confimation
+    pro: Profile
+    set: Settings
+  messenger:
+    error:
       one: The form contains %{count} error.
       other: The form contains %{count} errors.
-  sessions:
-    new:
-      title: Login
-      submit: Login
-      signup: Sign Up Now!
-      pass: Password
-      email: Email
-      check: Remember me on this computer
-    create:
-      invalid_mail: Invalid email/password combination
+    invalid_mail: Invalid email/password combination
+    welcome: Welcome to the Sample App!
+    user_nill: User is not exits!
+    update: "Profile updated"
+    login: Please log in.
+    delete: User deleted
+    sure_del: You sure?
+  button:
+    signup: Sign up now!
+    submit: Submit
+    create_user: Create my account
+    save_edit: Save changes
+    login: Log in
+    logout: Log out
+  href:
+    rails: Ruby on Rails Tutorial
+    book: book
+    screencast: screencast series
+    author: Michael Hartl
+    news: News
+    change: change
+  url:
+    rails: https://www.railstutorial.org/
+    book: https://www.railstutorial.org/book
+    screencast: http://screencasts.railstutorial.org/
+    author: http://www.michaelhartl.com/
+    news: http://news.railstutorial.org/
+    rails_ruby: http://rubyonrails.org/
+  img:
+    rails: rails.png
+  alt:
+    rails: Rails logo
+  check:
+    remember: Remember me on this computer
