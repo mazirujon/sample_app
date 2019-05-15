@@ -4,3 +4,6 @@ MIN_LENG_PASSWORD: 6
 CHECKED: "1"
 SIZE_AVARTA: 80
 PER_PAGE: 10
+address: 'smtp.sendgrid.net'
+port: '587'
+domain: 'heroku.com'
