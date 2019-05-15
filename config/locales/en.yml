@@ -29,6 +29,7 @@ en:
     login: Please log in.
     delete: User deleted
     sure_del: You sure?
+    check_mail: "Please check your email to activate your account."
   button:
     signup: Sign up now!
     submit: Submit
@@ -56,3 +57,6 @@ en:
     rails: Rails logo
   check:
     remember: Remember me on this computer
+  flash:
+    acc_act: "Account activated!"
+    invalid_acc: "Invalid activation link"
