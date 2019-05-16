@@ -6,7 +6,7 @@
     <%= render "form" %>
     <div class="gravatar_edit">
       <%= gravatar_for @user %>
-      <%= link_to t("href.change"), "http://gravatar.com/emails", target="_blank" %>
+      <a href="http://gravatar.com/emails" target="_blank"><%= t "href.change" %></a>
     </div>
   </div>
 </div>
